@@ -1,0 +1,13 @@
+server:
+  port: 8080
+mybatis:
+  mapperLocations: classpath:mapping/*.xml
+
+spring:
+  datasource:
+    name: shopping
+    url: jdbc:mysql://127.0.0.1:3306/shopping
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
