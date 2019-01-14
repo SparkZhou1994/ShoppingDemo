@@ -16,7 +16,8 @@
                 url:"http://localhost:8090/user/getotp",
                 data:{
                     "telphone":$("#telphone").val()
-                }
+                },
+                xhrFields:{withCredentials:true},
                 success:function(data) {
                     if(data.status == "success") {
                         alter("success");

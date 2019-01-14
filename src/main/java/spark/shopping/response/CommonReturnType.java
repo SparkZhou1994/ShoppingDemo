@@ -8,7 +8,7 @@ package spark.shopping.response;
  * @Version 1.0
  **/
 public class CommonReturnType {
-    //表明对应请求的返回处理结果"success"或"fail"
+    //表明对应请求的返回处理结果"success"或"fail"vlg
     private String status;
 
     //若status=success,则data内返回前端需要的json数据
